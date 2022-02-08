@@ -16,9 +16,8 @@ const Spotify = () => {
             
             <div class="flex aic jcc" style={{marginTop:16,}}>
                 <div class="btnMain">Get Spotify Free</div>
-
             </div>
-
+            
             </div>
 
         </div>
