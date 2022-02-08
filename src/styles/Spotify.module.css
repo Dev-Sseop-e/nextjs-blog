@@ -1,0 +1,30 @@
+
+
+.flex{
+    display:flex;
+}
+
+.fdr{
+    flex-direction:row;
+}
+
+.fdc{
+    flex-direction:column;
+}
+
+.borderRed{
+    border:1px solid red;
+}
+
+.bgRed{
+    background-color:red;
+}
+
+.f1{
+    flex:1;
+}
+
+.f2{
+    flex:2;
+}
+

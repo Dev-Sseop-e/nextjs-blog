@@ -1,0 +1,112 @@
+body{
+    margin:0px;
+}
+
+.flex{
+    display:flex;
+}
+
+.fdr{
+    flex-direction:row;
+}
+
+.fdc{
+    flex-direction:column;
+}
+
+.borderRed{
+    border:1px solid red;
+}
+
+.bgRed{
+    background-color:red;
+}
+
+.acc {
+    align-content: center;
+}
+
+.loginPg {
+    position: absolute;
+    left: 41%;
+    top: 25%;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.borderGray {
+    border: 1px solid #c8c8c8;
+}
+
+.f1{
+    flex:1;
+}
+
+.f2{
+    flex:2;
+}
+
+.aic {
+    align-items:center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.curP {
+    cursor: pointer;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.loginBtn {
+    width: 70px;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1.5px solid #333;
+    border-radius: 5px;
+}
+
+.mainColor {
+    color:rgb(30, 215, 96)
+}
+
+.fontXXL{
+    font-size:104px;
+}
+
+.mainTitleFont {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.btnMain {
+    color:rgb(41, 65, 171);
+    background-color: rgb(30, 215, 96);
+    font-size:14px; 
+    border-radius: 500px;
+    box-sizing: border-box;
+    padding-bottom:14px;
+    padding-top: 14px;
+    padding-left:32px;
+    padding-right:32px;
+    transition: 0.3s all linear;
+}
+
+.btnMain:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+.bgMainDots {
+    background-image: url("https://www-growth.scdn.co/static/home/bursts-tablet.svg");
+    background-size:120%;
+    background-color: rgb(41, 65, 171);
+}
+
