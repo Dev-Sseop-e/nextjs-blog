@@ -38,7 +38,7 @@ const Login = () => {
     return <>
 			<div className="loginPg">
 				<div className = "flex fdr jcc">
-							<img src="/images/logo.png" alt = "Google Logo"/>
+						<img src="/images/logo.png" alt = "Google Logo"/>
 					</div>
 					<br/>
 					<div className="flex fdr jcc"><InputBox text={"Email"} placeholder={"Enter your email"} value={email} onTextChange={e => setEmail(e.target.value)}/></div>
